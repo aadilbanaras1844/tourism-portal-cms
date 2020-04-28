@@ -1,0 +1,69 @@
+
+
+@import './forms.scss';
+
+
+.text-primary {
+    color: $color-dark-blue !important;
+}
+
+.btn-primary{
+    background-color: $color-dark-blue !important;
+}
+
+.container-fluid{
+    a{
+        color: $color-dark-blue !important;
+
+    }
+    a.btn {
+        color: $color-white !important;
+    }
+    .actions {
+        a,i {
+            color: $color-dark-blue !important;
+        }
+    }
+    th{
+        color: $color-dark-blue !important;
+    }
+}
+
+
+.topbar{
+    
+    .nav-item{
+        color: $color-dark-blue !important;
+        a,i,button{
+            color: $color-dark-blue !important;
+        }
+    }
+}
+
+
+.breadcrumb{
+    background-color: $color-background-white;
+}
+#content{
+    background-color: $color-light-green;
+}
+
+.card-header{
+    background-color: $color-middle-green;
+}
+.card-body{
+    background-color: $color-background-white;
+}
+app-side-bar{
+    background-color: $color-dark-blue;
+}
+footer{
+    background-color: $color-background-white;
+}
+
+.navbar{
+    background-color: $color-background-white;
+}
+.bg-light{
+   background-color:  $color-middle-green; 
+}

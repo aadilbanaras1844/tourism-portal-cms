@@ -1,0 +1,105 @@
+
+
+form.admin {
+   .row {
+       margin-bottom: 15px;
+       .col {
+           label {
+               display: block;
+           }
+       }
+       label {
+        //    color: $color-dark-blue;
+       }
+       select, input, button, textarea, tag-input, .multiselect-dropdown{
+            border-radius: 3px;
+            padding: 5px 5px;
+            width: 100%;
+            background-color: $color-white;
+            // color: $color-dark-blue;
+       }
+       textarea{
+           height: 125px;
+       }
+       select:focus, input:focus, button:focus, textarea:focus{
+        box-shadow: 0px 0px 0px 1px #f3eeee;
+       }
+       select.disabled, input.disabled {
+            cursor: not-allowed;
+       }
+       .dropdown-btn{
+            border: 0px !important;
+            padding: 0px !important;
+            .selected-item{
+                background-color: $color-dark-blue !important;
+                color: $color-white;
+            }
+       }
+       .ng2-tag-input{
+           tag{
+                background-color: $color-dark-blue !important;
+                color: $color-white;
+                border-radius: 3px;
+                font-size: 14px;
+                // padding: 4px 7px;
+                // height: 22px;
+                // line-height: 14px;
+                // delete-icon{
+                //     svg{
+                //         height: 12px !important;
+                //     }
+                    
+                // }
+           }
+       }
+
+       
+   } 
+   select, input, textarea, .multiselect-dropdown, tag-input {
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid #b9b6b6;
+        color: #505a5a;
+        margin-bottom: 15px;
+    }
+    img {
+        max-width: 100%;
+        border: 1px solid #696666;
+    }
+}
+
+
+form.admin-search{
+    select, input, textarea, .multiselect-dropdown, tag-input {
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid #b9b6b6;
+        color: #505a5a;
+        margin-bottom: 15px;
+    }
+    .form-check-input{
+        width: auto !important;
+        margin-bottom: 0px !important;
+    }
+    button{
+        margin-bottom: 15px;
+        color: $color-white !important;
+    }
+    .row {
+        margin-bottom: 15px;
+        .col {
+            label {
+                display: block;
+            }
+        }
+     
+        select, input, button, textarea, tag-input, .multiselect-dropdown{
+             border-radius: 3px;
+             padding: 5px 5px;
+             width: 100%;
+             background-color: $color-white;
+        }
+    
+        
+    } 
+}

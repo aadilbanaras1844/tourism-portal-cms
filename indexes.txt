@@ -1,0 +1,11 @@
+
+
+db.places.createIndex( { tags: 'text', custom_tags: 'text', name: 'text', lunk_url:'text' } );
+db.tours.createIndex( { tags: 'text', custom_tags: 'text' } )
+db.experiences.createIndex( { tags: 'text', custom_tags: 'text', name: 'text', lunk_url:'text' } );
+db.tours.createIndex( { tags: 'text', custom_tags: 'text', headline: 'text', lunk_url:'text' } );
+db.countries.createIndex( { name: 'text', short_name: 'text', country_code: 'text', continent: 'text' } )
+db.provinces.createIndex( { name: 'text', short_name: 'text', link_url: 'text'} )
+db.cities.createIndex( { name: 'text', short_name: 'text', link_url: 'text', tags: 'text', custom_tags: 'text'} )
+db.areatypes.createIndex( { name: 'text', short_name: 'text', link_url: 'text', tags: 'text',custom_tags:'text'} );
+db.users.createIndex( { first_name: 'text', last_name: 'text', email: 'text', contact_number1: 'text', contact_number2: 'text'} );
