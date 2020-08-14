@@ -1,7 +1,7 @@
-# rest-apis-node
+# CMS for Tourism portal
 Tourism portal cms to manage data in website
 ### Project architecture
- * Programming Language used: NodeJS 12.14.1
+ * Programming Language used: NodeJS 12.14.1, Angular8
  * Database used: MongoDB
  * Database Library used : mongoose
 ### Features
